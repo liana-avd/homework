@@ -95,10 +95,11 @@ button:active {
     background: url("../check-icon.svg") no-repeat center,  rgb(145, 214, 113);
 }
 
-input:focus,
+.input:focus,
 textarea:focus,
 button:focus,
 .checkbox:focus::after {
     outline: 2px solid rgb(145, 214, 113);
     outline-offset: 1px;
+
 }
